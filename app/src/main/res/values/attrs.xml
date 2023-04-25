@@ -155,4 +155,21 @@
     </declare-styleable>
 -->
 
+
+    <declare-styleable name="PreviewTimeBar">
+        <attr name="previewFrameLayout" format="reference" />
+        <attr name="previewAnimationEnabled" format="boolean" />
+        <attr name="previewEnabled" format="boolean" />
+        <attr name="previewAutoHide" format="boolean" />
+    </declare-styleable>
+
+
+    <declare-styleable name="PreviewSeekBar">
+        <attr name="previewFrameLayout" format="reference" />
+        <attr name="previewAnimationEnabled" format="boolean" />
+        <attr name="previewEnabled" format="boolean" />
+        <attr name="previewThumbTint" format="color" />
+        <attr name="previewAutoHide" format="boolean" />
+    </declare-styleable>
+
 </resources>

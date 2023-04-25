@@ -9,7 +9,41 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e873d2e-0150-43dd-a8a4-8695347e9a0e" name="Changes" comment="" />
+    <list default="true" id="2e873d2e-0150-43dd-a8a4-8695347e9a0e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/multitv/ott/multitvvideoplayer/previewseekbar/PreviewBar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/multitv/ott/multitvvideoplayer/previewseekbar/PreviewDelegate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/multitv/ott/multitvvideoplayer/previewseekbar/PreviewLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/multitv/ott/multitvvideoplayer/previewseekbar/PreviewSeekBar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/multitv/ott/multitvvideoplayer/previewseekbar/PreviewTimeBar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/multitv/ott/multitvvideoplayer/previewseekbar/animator/PreviewAnimator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/multitv/ott/multitvvideoplayer/previewseekbar/animator/PreviewFadeAnimator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/multitv/ott/multitvvideoplayer/previewseekbar/animator/PreviewMorphAnimator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.2/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.2/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.2/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.2/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/previewseekbar-exoplayer/MultiTvVideoPlayer.previewseekbar-exoplayer.androidTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/previewseekbar-exoplayer/MultiTvVideoPlayer.previewseekbar-exoplayer.androidTest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/previewseekbar-exoplayer/MultiTvVideoPlayer.previewseekbar-exoplayer.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/previewseekbar-exoplayer/MultiTvVideoPlayer.previewseekbar-exoplayer.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/previewseekbar-exoplayer/MultiTvVideoPlayer.previewseekbar-exoplayer.unitTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/previewseekbar-exoplayer/MultiTvVideoPlayer.previewseekbar-exoplayer.unitTest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/previewseekbar/MultiTvVideoPlayer.previewseekbar.androidTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/previewseekbar/MultiTvVideoPlayer.previewseekbar.androidTest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/previewseekbar/MultiTvVideoPlayer.previewseekbar.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/previewseekbar/MultiTvVideoPlayer.previewseekbar.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/previewseekbar/MultiTvVideoPlayer.previewseekbar.unitTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/previewseekbar/MultiTvVideoPlayer.previewseekbar.unitTest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/multitv/ott/multitvvideoplayer/videoplayer/AltAndroidTvVideoPlayer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/multitv/ott/multitvvideoplayer/videoplayer/AltAndroidTvVideoPlayer.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/attrs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/attrs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/ids.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/ids.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,27 +94,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;android-custom-viewC:/Users/kamle/.gradle/caches/modules-2/files-2.1/com.google.android.exoplayer/exoplayer-ui/2.16.1/18261d40c6c283e22f6d2f1f37fa65068836e68/exoplayer-ui-2.16.1-sources.jar!/com/google/android/exoplayer2/ui/StyledPlayerView.java_SELECTED&quot;: &quot;StyledPlayerView&quot;,
-    &quot;android-custom-viewC:/projects/mtvplayer/mtvplayter1/app/src/main/java/com/multitv/ott/multitvvideoplayer/AltbalajiTvVideoPlayer.kt_SELECTED&quot;: &quot;AltbalajiTvVideoPlayer&quot;,
-    &quot;android-custom-viewC:/projects/mtvplayer/mtvplayter1/app/src/main/java/com/multitv/ott/multitvvideoplayer/BalajiVideoPlayer.kt_SELECTED&quot;: &quot;BalajiVideoPlayer&quot;,
-    &quot;android-custom-viewC:/projects/mtvplayer/mtvplayter1/app/src/main/java/com/multitv/ott/multitvvideoplayer/FullScreenVideoPlayer.kt_SELECTED&quot;: &quot;FullScreenVideoPlayer&quot;,
-    &quot;android-custom-viewC:/projects/mtvplayer/mtvplayter1/app/src/main/java/com/multitv/ott/multitvvideoplayer/TvPlayer.kt_SELECTED&quot;: &quot;TvPlayer&quot;,
-    &quot;android-custom-viewC:/projects/mtvplayer/mtvplayter1/app/src/main/java/com/multitv/ott/multitvvideoplayer/videoplayer/AltAndroidTvVideoPlayer.kt_SELECTED&quot;: &quot;AltAndroidTvVideoPlayer&quot;,
-    &quot;android-custom-viewC:/projects/mtvplayer/mtvplayter1/app/src/main/java/com/multitv/ott/multitvvideoplayer/videoplayer/MyVideoPlayer.java_SELECTED&quot;: &quot;MyVideoPlayer&quot;,
-    &quot;android-custom-viewC:/projects/mtvplayer/mtvplayter1/app/src/main/java/com/multitv/ott/multitvvideoplayer/videoplayer/OfflineVIdeoPlayer.kt_SELECTED&quot;: &quot;OfflineVIdeoPlayer&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/kamle/OneDrive/Desktop&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "android-custom-viewC:/Users/kamle/.gradle/caches/modules-2/files-2.1/com.google.android.exoplayer/exoplayer-ui/2.16.1/18261d40c6c283e22f6d2f1f37fa65068836e68/exoplayer-ui-2.16.1-sources.jar!/com/google/android/exoplayer2/ui/StyledPlayerView.java_SELECTED": "StyledPlayerView",
+    "android-custom-viewC:/projects/mtvplayer/mtvplayter1/app/src/main/java/com/multitv/ott/multitvvideoplayer/AltbalajiTvVideoPlayer.kt_SELECTED": "AltbalajiTvVideoPlayer",
+    "android-custom-viewC:/projects/mtvplayer/mtvplayter1/app/src/main/java/com/multitv/ott/multitvvideoplayer/BalajiVideoPlayer.kt_SELECTED": "BalajiVideoPlayer",
+    "android-custom-viewC:/projects/mtvplayer/mtvplayter1/app/src/main/java/com/multitv/ott/multitvvideoplayer/FullScreenVideoPlayer.kt_SELECTED": "FullScreenVideoPlayer",
+    "android-custom-viewC:/projects/mtvplayer/mtvplayter1/app/src/main/java/com/multitv/ott/multitvvideoplayer/TvPlayer.kt_SELECTED": "TvPlayer",
+    "android-custom-viewC:/projects/mtvplayer/mtvplayter1/app/src/main/java/com/multitv/ott/multitvvideoplayer/videoplayer/AltAndroidTvVideoPlayer.kt_SELECTED": "AltAndroidTvVideoPlayer",
+    "android-custom-viewC:/projects/mtvplayer/mtvplayter1/app/src/main/java/com/multitv/ott/multitvvideoplayer/videoplayer/MyVideoPlayer.java_SELECTED": "MyVideoPlayer",
+    "android-custom-viewC:/projects/mtvplayer/mtvplayter1/app/src/main/java/com/multitv/ott/multitvvideoplayer/videoplayer/OfflineVIdeoPlayer.kt_SELECTED": "OfflineVIdeoPlayer",
+    "android-custom-viewD:/videoplayer/app/src/main/java/com/multitv/ott/multitvvideoplayer/previewseekbar/PreviewTimeBar.java_SELECTED": "PreviewTimeBar",
+    "android-custom-viewD:/videoplayer/app/src/main/java/com/multitv/ott/multitvvideoplayer/videoplayer/AltAndroidTvVideoPlayer.kt_SELECTED": "AltAndroidTvVideoPlayer",
+    "android-custom-viewD:/videoplayer/previewseekbar-exoplayer/src/main/java/com/github/rubensousa/previewseekbar/exoplayer/PreviewTimeBar.java_SELECTED": "PreviewTimeBar",
+    "cidr.known.project.marker": "true",
+    "last_opened_file_path": "D:/videoplayer/app/src/main/res/drawable",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.17",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\videoplayer\app\src\main\res\drawable" />
+      <recent name="D:\videoplayer\app\src\main\java\com\multitv\ott\multitvvideoplayer\previewseekbar" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.multitv.ott.multitvvideoplayer.previewseekbar" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

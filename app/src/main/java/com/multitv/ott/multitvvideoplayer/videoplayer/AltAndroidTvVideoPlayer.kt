@@ -5,11 +5,8 @@ import android.annotation.SuppressLint
 import android.app.*
 import android.content.Context
 import android.content.DialogInterface
-import android.content.Intent
-import android.content.pm.ActivityInfo
 import android.content.pm.PackageManager
 import android.content.res.Configuration
-import android.graphics.drawable.Icon
 import android.media.AudioManager
 import android.net.Uri
 import android.os.Build
@@ -22,11 +19,8 @@ import android.text.TextUtils
 import android.util.AttributeSet
 import android.util.DisplayMetrics
 import android.util.Log
-import android.util.Rational
 import android.view.*
 import android.widget.*
-import androidx.annotation.DrawableRes
-import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.LinearLayoutCompat
 import androidx.constraintlayout.widget.ConstraintLayout
@@ -38,9 +32,6 @@ import com.conviva.sdk.ConvivaAdAnalytics
 import com.conviva.sdk.ConvivaAnalytics
 import com.conviva.sdk.ConvivaSdkConstants
 import com.conviva.sdk.ConvivaVideoAnalytics
-import com.github.rubensousa.previewseekbar.PreviewBar
-import com.github.rubensousa.previewseekbar.PreviewLoader
-import com.github.rubensousa.previewseekbar.exoplayer.PreviewTimeBar
 import com.google.ads.interactivemedia.v3.api.Ad
 import com.google.ads.interactivemedia.v3.api.AdEvent
 import com.google.ads.interactivemedia.v3.api.AdsManagerLoadedEvent
@@ -53,7 +44,7 @@ import com.google.android.exoplayer2.offline.DownloadRequest
 import com.google.android.exoplayer2.source.DefaultMediaSourceFactory
 import com.google.android.exoplayer2.source.MediaSourceFactory
 import com.google.android.exoplayer2.trackselection.DefaultTrackSelector
-import com.google.android.exoplayer2.ui.DefaultTimeBar
+
 import com.google.android.exoplayer2.ui.StyledPlayerView
 import com.google.android.exoplayer2.upstream.DataSource
 import com.google.android.exoplayer2.upstream.DefaultAllocator
@@ -72,6 +63,9 @@ import com.multitv.ott.multitvvideoplayer.listener.VideoPlayerSdkCallBackListene
 import com.multitv.ott.multitvvideoplayer.models.SkipDuration
 import com.multitv.ott.multitvvideoplayer.playerglide.GlideThumbnailTransformation
 import com.multitv.ott.multitvvideoplayer.popup.TrackSelectionDialog
+import com.multitv.ott.multitvvideoplayer.previewseekbar.PreviewBar
+import com.multitv.ott.multitvvideoplayer.previewseekbar.PreviewLoader
+import com.multitv.ott.multitvvideoplayer.previewseekbar.PreviewTimeBar
 import com.multitv.ott.multitvvideoplayer.utils.*
 import com.pallycon.widevinelibrary.*
 import java.util.*
@@ -107,7 +101,7 @@ class AltAndroidTvVideoPlayer(
     private var mInitialTextureHeight: Int = 0
 
     // get buffer duration of video in milli second
-    var bufferingTimeInMillis: Long = 0
+    private var bufferingTimeInMillis: Long = 0
     private var seekPlayerTo = 0
     private var mContentUrl: String? = null
     private var subTitleUri: String? = null
